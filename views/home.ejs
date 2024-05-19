@@ -1,0 +1,12 @@
+
+<%- include("partials/header.ejs"); %>
+    <div>
+    <h1>HOME</h1>
+    <p><%= homeContent %></p>
+    <div class="flexbox">
+        <form action="/" method="post">
+        <button type="submit" class="btn btn-outline-primary" name="submission">Compose A new Blog</button>
+        </form>
+    </div>
+    </div>
+<%- include("partials/footer.ejs"); %>
